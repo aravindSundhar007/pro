@@ -1,26 +1,26 @@
-in=int(input(" "))
+inpu=int(input(" "))
 
-i=0
+d=0
 
 xy=0
 
 b=[]
 
-while i<90 and i<in:
+while d<90 and d<inpu:
 
   s=0
 
-  for j in str(in-i):
+  for j in str(inpu-d):
 
     s+=int(j)
 
-  if s+(in-i)==in:
+  if s+(inpu-d)==inpu:
 
     xy+=1
 
-    b.append(in-i)
+    b.append(inpu-d)
 
-  i+=1
+  d+=1
 
 print(xy)
 
